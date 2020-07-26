@@ -12,11 +12,6 @@ interface Balance {
   total: number;
 }
 
-interface Statement {
-  transactions: Transaction[];
-  balance: Balance;
-}
-
 class TransactionsRepository {
   private transactions: Transaction[];
 
